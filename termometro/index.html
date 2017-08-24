@@ -1,0 +1,458 @@
+<!--
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Termometro Electoral</title>
+
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- BODY options, add following classes to body to change options
+
+// Header options
+1. '.header-fixed'					- Fixed Header
+
+// Sidebar options
+1. '.sidebar-fixed'					- Fixed Sidebar
+2. '.sidebar-hidden'				- Hidden Sidebar
+3. '.sidebar-off-canvas'		- Off Canvas Sidebar
+4. '.sidebar-minimized'			- Minimized Sidebar (Only icons)
+5. '.sidebar-compact'			  - Compact Sidebar
+
+// Aside options
+1. '.aside-menu-fixed'			- Fixed Aside Menu
+2. '.aside-menu-hidden'			- Hidden Aside Menu
+3. '.aside-menu-off-canvas'	- Off Canvas Aside Menu
+
+// Breadcrumb options
+1. '.breadcrumb-fixed'			- Fixed Breadcrumb
+
+// Footer options
+1. '.footer-fixed'					- Fixed footer
+
+-->
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto" type="button">☰</button>
+        <a class="navbar-brand" href="#">TERMÓMETRO ELECTORAL</a>
+        <button class="navbar-toggler sidebar-minimizer d-md-down-none" type="button">☰</button>
+
+    </header>
+
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="icon-speedometer"></i> Candidatos <!--<span class="badge badge-primary">NEW</span>--></a>
+                        <a class="nav-link" href="topicos.html"><i class="icon-speedometer"></i> Tópicos <!--<span class="badge badge-primary">NEW</span>--></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Termómetro Electoral</a></li>
+                <li class="breadcrumb-item active">Candidatos</li>
+            </ol>
+
+            <!--
+                <span class="badge badge-pill badge-primary">chile</span>
+                <span class="badge badge-pill badge-primary">vamos</span>
+                <span class="badge badge-pill badge-primary">mañana</span>
+                <span class="badge badge-pill badge-primary">propuestas</span>
+
+                <span class="badge badge-pill badge-success">ley</span>
+                <span class="badge badge-pill badge-success">proyecto</span>
+                <span class="badge badge-pill badge-success">inscripción</span>
+                <span class="badge badge-pill badge-success">minutos</span>
+
+                <span class="badge badge-pill badge-warning">candidato</span>
+                <span class="badge badge-pill badge-warning">gobierno</span>
+                <span class="badge badge-pill badge-warning">candidatura</span>
+                <span class="badge badge-pill badge-warning">niños</span>
+
+                <span class="badge badge-pill badge-danger">presidencial</span>
+                <span class="badge badge-pill badge-danger">presidente</span>
+                <span class="badge badge-pill badge-danger">vida</span>
+                <span class="badge badge-pill badge-danger">familia</span>
+
+            -->
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/pinera.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Sebastián Piñera</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.03</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.17</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.79</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+
+                                <span class="badge badge-pill badge-success">ley</span>
+                                <span class="badge badge-pill badge-success">proyecto</span>
+                                <span class="badge badge-pill badge-success">inscripción</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+                                <span class="badge badge-pill badge-warning">gobierno</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                                <span class="badge badge-pill badge-danger">vida</span>
+                                <span class="badge badge-pill badge-danger">familia</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/guilier.png" alt="Card image cap">    
+                            <div class="card-body">
+                            <h4 class="card-title">Alejandro Guillier</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.04</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.09</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.87</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+                                <span class="badge badge-pill badge-primary">vamos</span>
+                                <span class="badge badge-pill badge-primary">mañana</span>
+                                <span class="badge badge-pill badge-primary">propuestas</span>
+
+                                <span class="badge badge-pill badge-success">ley</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+                                <span class="badge badge-pill badge-warning">gobierno</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col"> 
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/goic.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Carolina Goic</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.03</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.14</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.83</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+
+                                <span class="badge badge-pill badge-success">ley</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+                                <span class="badge badge-pill badge-warning">gobierno</span>
+                                <span class="badge badge-pill badge-warning">candidatura</span>
+                                <span class="badge badge-pill badge-warning">niños</span>
+                                <span class="badge badge-pill badge-warning">vida</span>
+                                <span class="badge badge-pill badge-warning">familia</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/meo.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Marco Enriquez-Ominami</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.03</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.21</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.75</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+                                <span class="badge badge-pill badge-primary">vamos</span>
+                                <span class="badge badge-pill badge-primary">mañana</span>
+                                <span class="badge badge-pill badge-primary">propuestas</span>
+
+                                <span class="badge badge-pill badge-success">ley</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+                                <span class="badge badge-pill badge-warning">gobierno</span>
+                                <span class="badge badge-pill badge-warning">candidatura</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/sanchez.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Beatriz Sánchez</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.05</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.13</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.82</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+                                <span class="badge badge-pill badge-primary">propuestas</span>
+
+                                <span class="badge badge-pill badge-success">ley</span>
+                                <span class="badge badge-pill badge-success">proyecto</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+                                <span class="badge badge-pill badge-warning">gobierno</span>
+                                <span class="badge badge-pill badge-warning">candidatura</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                                <span class="badge badge-pill badge-danger">vida</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/artes.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Eduardo Artés</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.05</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.06</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.89</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-success">ley</span>
+                                <span class="badge badge-pill badge-success">proyecto</span>
+                                <span class="badge badge-pill badge-success">inscripción</span>
+                                <span class="badge badge-pill badge-success">minutos</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/navarro.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">Alejandro Navarro</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.08</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.07</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.85</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+
+                                <span class="badge badge-pill badge-warning">candidato</span>
+
+                                <span class="badge badge-pill badge-danger">presidencial</span>
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                                <span class="badge badge-pill badge-danger">día</span>
+                                <span class="badge badge-pill badge-danger">radio</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/kast.png" alt="Card image cap">
+                            <div class="card-body">
+                            <h4 class="card-title">José Antonio Kast</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Análisis de Sentimientos</h6>
+                            <p class="card-text">
+                                <div class="callout callout-danger">
+                                    <small class="text-muted">Negativo</small><br>
+                                    <strong class="h4">0.08</strong>
+                                </div>
+                                <div class="callout callout-warning">
+                                    <small class="text-muted">Neutro</small><br>
+                                    <strong class="h4">0.10</strong>
+                                </div>
+                                <div class="callout callout-success">
+                                    <small class="text-muted">Positivo</small><br>
+                                    <strong class="h4">0.82</strong>
+                                </div>
+                            </p>
+                            <br />
+                            <h6 class="card-subtitle mb-2 text-muted">Tópicos más usados:</h6>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-primary">chile</span>
+                                <span class="badge badge-pill badge-primary">vamos</span>
+                                <span class="badge badge-pill badge-primary">mañana</span>
+                                <span class="badge badge-pill badge-primary">propuestas</span>
+
+                                <span class="badge badge-pill badge-warning">niños</span>
+
+                                <span class="badge badge-pill badge-danger">presidente</span>
+                                <span class="badge badge-pill badge-danger">vida</span>
+                                <span class="badge badge-pill badge-danger">familia</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+
+
+    </div>
+
+    <footer class="app-footer">
+        <a href="http://coreui.io">Termómetro Electoral</a> © 2017 Fernanda Weiss, Ignacio Espinoza, René Mujica.
+        <span class="float-right">Powered by <a href="http://coreui.io">CoreUI</a>
+        </span>
+    </footer>
+
+    <!-- Bootstrap and necessary plugins -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/index.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/pace/pace.min.js"></script>
+
+
+
+    <!-- GenesisUI main scripts -->
+
+    <script src="js/app.js"></script>
+
+
+
+
+
+    <!-- Plugins and scripts required by this views -->
+
+    <!-- Custom scripts required by this view -->
+    <script src="js/views/main.js"></script>
+
+</body>
+
+</html>

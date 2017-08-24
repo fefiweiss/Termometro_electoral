@@ -1,0 +1,516 @@
+<!--
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>CoreUI - Open Source Bootstrap Admin Template</title>
+
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- BODY options, add following classes to body to change options
+
+// Header options
+1. '.header-fixed'					- Fixed Header
+
+// Sidebar options
+1. '.sidebar-fixed'					- Fixed Sidebar
+2. '.sidebar-hidden'				- Hidden Sidebar
+3. '.sidebar-off-canvas'		- Off Canvas Sidebar
+4. '.sidebar-minimized'			- Minimized Sidebar (Only icons)
+5. '.sidebar-compact'			  - Compact Sidebar
+
+// Aside options
+1. '.aside-menu-fixed'			- Fixed Aside Menu
+2. '.aside-menu-hidden'			- Hidden Aside Menu
+3. '.aside-menu-off-canvas'	- Off Canvas Aside Menu
+
+// Breadcrumb options
+1. '.breadcrumb-fixed'			- Fixed Breadcrumb
+
+// Footer options
+1. '.footer-fixed'					- Fixed footer
+
+-->
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto" type="button">☰</button>
+        <a class="navbar-brand" href="#">TERMÓMETRO ELECTORAL</a>
+        <button class="navbar-toggler sidebar-minimizer d-md-down-none" type="button">☰</button>
+
+    </header>
+
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="icon-speedometer"></i> Candidatos <!--<span class="badge badge-primary">NEW</span>--></a>
+                            <a class="nav-link active" href="topicos.html"><i class="icon-speedometer"></i> Tópicos <!--<span class="badge badge-primary">NEW</span>--></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Termómetro Electoral</a></li>
+                <li class="breadcrumb-item active">Tópicos</li>
+            </ol>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <img src="img/cloud.jpg" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body bg-primary">
+                                <h4 class="card-title">Tópico 0</h4>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0073</div>
+                                    <div>chile</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 21.4%" aria-valuenow="21.4" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0043</div>
+                                    <div>vamos</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0040</div>
+                                    <div>mañana</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 11.73%" aria-valuenow="11.73" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0033</div>
+                                    <div>www.pinera2010.cl</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 9.67%" aria-valuenow="9.67" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0026</div>
+                                    <div>bien</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0026</div>
+                                    <div>llegando</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0026</div>
+                                    <div>#kastpresidente</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0025</div>
+                                    <div>propuestas</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0025</div>
+                                    <div>saliendo</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0024</div>
+                                    <div>vuelta</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body bg-success">
+                                <h4 class="card-title">Tópico 1</h4>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0030</div>
+                                    <div>chile</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 18.18%" aria-valuenow="18.18" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0020</div>
+                                    <div>#volveracrecer</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 12.12%" aria-valuenow="12.12" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0019</div>
+                                    <div>#kastpresidente</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 11.73%" aria-valuenow="11.73" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0017</div>
+                                    <div>https</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 9.67%" aria-valuenow="9.67" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0014</div>
+                                    <div>eduardo</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0014</div>
+                                    <div>ley</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0014</div>
+                                    <div>inscripción</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0013</div>
+                                    <div>proyecto</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0012</div>
+                                    <div>minutos</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0012</div>
+                                    <div>artes</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body bg-warning">
+                                <h4 class="card-title">Tópico 2</h4>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0045</div>
+                                    <div>candidato</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 21.4%" aria-valuenow="21.4" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0038</div>
+                                    <div>chile</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0035</div>
+                                    <div>gobierno</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 11.73%" aria-valuenow="11.73" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0034</div>
+                                    <div>eduardo</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 9.67%" aria-valuenow="9.67" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0.0033</div>
+                                    <div>candidatura</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0027</div>
+                                    <div>artés</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0027</div>
+                                    <div>#volveracreer</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0025</div>
+                                    <div>#kastpresidente</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0024</div>
+                                    <div>vía</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0020</div>
+                                    <div>niños</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body bg-danger">
+                                <h4 class="card-title">Tópico 4</h4>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0061</div>
+                                    <div>chile</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 21.4%" aria-valuenow="21.4" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0040</div>
+                                    <div>presidencial</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0040</div>
+                                    <div>gobieron</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 11.73%" aria-valuenow="11.73" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0033</div>
+                                    <div>www.pinera2010.cl</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 9.67%" aria-valuenow="9.67" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0037</div>
+                                    <div>día</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0033</div>
+                                    <div>radio</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0023</div>
+                                    <div>presidente</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0023</div>
+                                    <div>vida</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0021</div>
+                                    <div>vía</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0020</div>
+                                    <div>familia</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body bg-light">
+                                <h4 class="card-title">Tópico 5</h4>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.002</div>
+                                    <div>padres</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 21.4%" aria-valuenow="21.4" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.001</div>
+                                    <div>felicitaciones</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.001</div>
+                                    <div>mundial</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 11.73%" aria-valuenow="11.73" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.001</div>
+                                    <div>día</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 9.67%" aria-valuenow="9.67" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0001</div>
+                                    <div>feliz</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0001</div>
+                                    <div>fuerza</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0009</div>
+                                    <div>quieren</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0009</div>
+                                    <div>china</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0009</div>
+                                    <div>campeona</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <div class="h5 m-0">0.0009</div>
+                                    <div>7-0</div>
+                                    <div class="progress progress-xs my-1">
+                                        <div class="progress-bar bg-dark" role="progressbar" style="width: 7.62%" aria-valuenow="7.62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.conainer-fluid -->
+        </main>
+
+
+    </div>
+
+    <footer class="app-footer">
+        <a href="http://coreui.io">Termómetro Electoral</a> © 2017 Fernanda Weiss, Ignacio Espinoza, René Mujica.
+        <span class="float-right">Powered by <a href="http://coreui.io">CoreUI</a>
+        </span>
+    </footer>
+
+    <!-- Bootstrap and necessary plugins -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/popper.js/index.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/pace/pace.min.js"></script>
+
+
+
+    <!-- GenesisUI main scripts -->
+
+    <script src="js/app.js"></script>
+
+
+
+
+
+    <!-- Plugins and scripts required by this views -->
+
+    <!-- Custom scripts required by this view -->
+    <script src="js/views/main.js"></script>
+
+</body>
+
+</html>
